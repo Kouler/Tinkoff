@@ -1,21 +1,33 @@
 package edu.hw1;
 
 public final class Task3 {
+
+    private Task3() {
+    }
+
     public static boolean isNestable(int[] a1, int[] a2) {
-        int min_a1 = a1[0],
-            max_a1 = a1[0],
-            min_a2 = a2[0],
-            max_a2 = a2[0];
+        int minA1 = a1[0];
+        int maxA1 = a1[0];
+        int minA2 = a2[0];
+        int maxA2 = a2[0];
 
         for (int el : a1) {
-            if (min_a1 > el) min_a1 = el;
-            if (max_a1 < el) max_a1 = el;
+            if (minA1 > el) {
+                minA1 = el;
+            }
+            if (maxA1 < el) {
+                maxA1 = el;
+            }
         }
         for (int el : a2) {
-            if (min_a2 > el) min_a2 = el;
-            if (max_a2 < el) max_a2 = el;
+            if (minA2 > el) {
+                minA2 = el;
+            }
+            if (maxA2 < el) {
+                maxA2 = el;
+            }
         }
 
-        return min_a1 > min_a2 && max_a1 < max_a2;
+        return minA1 > minA2 && maxA1 < maxA2;
     }
 }

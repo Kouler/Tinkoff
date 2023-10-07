@@ -1,6 +1,10 @@
 package edu.hw1;
 
 public final class Task4 {
+
+    private Task4() {
+    }
+
     public static String fixString(String s) {
         //про стринг-билдера не знал, IDEA сама предложила - я с радостью согласился)
         StringBuilder fixed = new StringBuilder();
@@ -10,8 +14,9 @@ public final class Task4 {
         }
 
         //последнего отщепенца тоже не забываем...
-        if (s.length() % 2 != 0)
-            fixed.append(s.charAt(s.length()-1));
+        if (s.length() % 2 != 0) {
+            fixed.append(s.charAt(s.length() - 1));
+        }
 
         return fixed.toString();
     }
