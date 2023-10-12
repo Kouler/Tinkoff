@@ -36,7 +36,6 @@ public final class Task6 {
                 if (countArr[idx] >= KAPLENGTH) {
                     return ERROR2;
                 }
-            count++;
             }
 
             int max = 0;
@@ -53,6 +52,7 @@ public final class Task6 {
                 }
             }
             x = max - min;
+            count++;
         }
         return count;
     }
