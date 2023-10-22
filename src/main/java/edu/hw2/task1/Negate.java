@@ -1,4 +1,4 @@
-package edu.hm2.task1;
+package edu.hw2.task1;
 
 public record Negate(Expr obj) implements Expr {
     @Override

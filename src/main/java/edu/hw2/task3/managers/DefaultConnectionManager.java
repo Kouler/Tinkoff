@@ -1,8 +1,8 @@
-package edu.hm2.task3.managers;
+package edu.hw2.task3.managers;
 
-import edu.hm2.task3.connections.Connection;
-import edu.hm2.task3.connections.FaultyConnection;
-import edu.hm2.task3.connections.StableConnection;
+import edu.hw2.task3.connections.Connection;
+import edu.hw2.task3.connections.FaultyConnection;
+import edu.hw2.task3.connections.StableConnection;
 
 public class DefaultConnectionManager implements ConnectionManager {
     static int current = 0;

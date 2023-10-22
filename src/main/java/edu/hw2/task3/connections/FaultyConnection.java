@@ -1,6 +1,6 @@
-package edu.hm2.task3.connections;
+package edu.hw2.task3.connections;
 
-import edu.hm2.task3.exceptions.ConnectionException;
+import edu.hw2.task3.exceptions.ConnectionException;
 
 public class FaultyConnection implements Connection {
     static int current = 0;

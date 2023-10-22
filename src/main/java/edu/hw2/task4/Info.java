@@ -1,4 +1,4 @@
-package edu.hm2.task4;
+package edu.hw2.task4;
 
 public final class Info {
     private Info() {

@@ -1,4 +1,4 @@
-package edu.hm2.task1;
+package edu.hw2.task1;
 
 public record Exponent(Expr a, int x) implements Expr {
     @Override

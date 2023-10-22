@@ -1,17 +1,14 @@
 package edu.hw2;
 
-import edu.hm2.task3.exceptions.ConnectionException;
-import edu.hm2.task3.executors.PopularCommandExecutor;
-import edu.hm2.task3.managers.DefaultConnectionManager;
-import edu.hm2.task3.managers.FaultyConnectionManager;
+import edu.hw2.task3.exceptions.ConnectionException;
+import edu.hw2.task3.executors.PopularCommandExecutor;
+import edu.hw2.task3.managers.DefaultConnectionManager;
+import edu.hw2.task3.managers.FaultyConnectionManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.function.Executable;
 
-import java.io.IOException;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertThrows;

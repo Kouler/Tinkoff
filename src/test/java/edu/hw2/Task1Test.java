@@ -3,7 +3,7 @@ package edu.hw2;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import edu.hm2.task1.*;
+import edu.hw2.task1.*;
 
 public class Task1Test {
     @Test

@@ -1,4 +1,4 @@
-package edu.hm2.task1;
+package edu.hw2.task1;
 
 public record Addition(Expr a, Expr b) implements Expr {
 

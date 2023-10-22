@@ -1,4 +1,4 @@
-package edu.hm2.task3.exceptions;
+package edu.hw2.task3.exceptions;
 
 public class ConnectionException extends RuntimeException {
     @Override

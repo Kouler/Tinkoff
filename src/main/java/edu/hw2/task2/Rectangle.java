@@ -1,4 +1,4 @@
-package edu.hm2.task2;
+package edu.hw2.task2;
 
 public sealed class Rectangle permits Square {
 
